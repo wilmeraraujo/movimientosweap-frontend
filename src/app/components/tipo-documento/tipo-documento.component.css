@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+ul li {
+  list-style: none;
+}
+.alinear {
+  text-align: center;
+  margin-top: 20px;
+}
+.rightButtonAdd{
+  margin-left: auto;
+}
+mat-form-field{
+  width: 140%;
+}
+.mat-cell:nth-child(1),
+.mat-header-cell:nth-child(1){
+  flex: 0 0 6%;
+}
+.outline-button {
+  /*background-color: transparent;
+  /*border: 2px solid #4b7a4b; /* Usar el color primario de Angular Material */
+  color: #174613; /* También usa el color primario */
+}
+.actions-column {
+  text-align: right;
+}
